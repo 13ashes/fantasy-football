@@ -1,0 +1,185 @@
+week,is_playoffs,is_consolation,team_1_key,team_1_nickname,team_1_points,team_1_projected_points,is_bye,team_2_key,team_2_nickname,team_2_points,team_2_projected_points
+1,False,False,390.l.1031063.t.7,Tony F,117.76,136.64,False,390.l.1031063.t.6,Jeff Big,114.14,131.98
+2,False,False,390.l.1031063.t.7,Tony F,115.52,125.16,False,390.l.1031063.t.4,august,140.76,136.17
+3,False,False,390.l.1031063.t.7,Tony F,92.12,129.08,False,390.l.1031063.t.11,nate,144.76,142.95
+4,False,False,390.l.1031063.t.7,Tony F,126.4,126.35,False,390.l.1031063.t.12,Zach,116.00,130.70
+5,False,False,390.l.1031063.t.7,Tony F,127.56,126.96,False,390.l.1031063.t.2,Andrew,132.44,113.72
+6,False,False,390.l.1031063.t.7,Tony F,116.7,125.18,False,390.l.1031063.t.8,Ben,124.72,127.76
+7,False,False,390.l.1031063.t.7,Tony F,107.28,121.13,False,390.l.1031063.t.9,Joe,97.54,132.36
+8,False,False,390.l.1031063.t.7,Tony F,111.46,134.18,False,390.l.1031063.t.10,Steven,147.40,124.15
+9,False,False,390.l.1031063.t.7,Tony F,133.9,132.49,False,390.l.1031063.t.3,Alex Zara,101.34,114.11
+10,False,False,390.l.1031063.t.7,Tony F,142.44,122.66,False,390.l.1031063.t.1,WH,137.08,129.33
+11,False,False,390.l.1031063.t.7,Tony F,133.34,130.9,False,390.l.1031063.t.5,Brian,135.88,119.63
+12,False,False,390.l.1031063.t.7,Tony F,145.8,125.47,False,390.l.1031063.t.6,Jeff Big,110.32,117.74
+13,False,False,390.l.1031063.t.7,Tony F,129.58,130.86,False,390.l.1031063.t.4,august,122.74,131.41
+14,True,False,390.l.1031063.t.7,Tony F,131.0,132.39,False,390.l.1031063.t.5,Brian,116.40,129.71
+15,True,False,390.l.1031063.t.7,Tony F,134.26,139.67,False,390.l.1031063.t.12,Zach,115.48,124.47
+16,True,False,390.l.1031063.t.7,Tony F,138.06,133.07,False,390.l.1031063.t.8,Ben,133.50,128.44
+1,False,False,390.l.1031063.t.8,Ben,173.32,133.29,False,390.l.1031063.t.3,Alex Zara,90.76,131.62
+2,False,False,390.l.1031063.t.8,Ben,92.04,131.08,False,390.l.1031063.t.1,WH,93.60,129.64
+3,False,False,390.l.1031063.t.8,Ben,135.04,132.93,False,390.l.1031063.t.5,Brian,77.18,126.25
+4,False,False,390.l.1031063.t.8,Ben,117.32,133.06,False,390.l.1031063.t.6,Jeff Big,103.84,125.53
+5,False,False,390.l.1031063.t.8,Ben,130.18,121.51,False,390.l.1031063.t.4,august,158.62,133.70
+6,False,False,390.l.1031063.t.8,Ben,124.72,127.76,False,390.l.1031063.t.7,Tony F,116.70,125.18
+7,False,False,390.l.1031063.t.8,Ben,93.06,114.93,False,390.l.1031063.t.12,Zach,101.06,114.33
+8,False,False,390.l.1031063.t.8,Ben,95.04,100.06,False,390.l.1031063.t.2,Andrew,125.78,123.80
+9,False,False,390.l.1031063.t.8,Ben,136.48,114.43,False,390.l.1031063.t.11,nate,98.64,128.32
+10,False,False,390.l.1031063.t.8,Ben,109.28,115.1,False,390.l.1031063.t.9,Joe,134.58,108.16
+11,False,False,390.l.1031063.t.8,Ben,149.56,120.28,False,390.l.1031063.t.10,Steven,88.40,123.27
+12,False,False,390.l.1031063.t.8,Ben,124.38,132.07,False,390.l.1031063.t.3,Alex Zara,104.86,112.77
+13,False,False,390.l.1031063.t.8,Ben,143.9,120.89,False,390.l.1031063.t.1,WH,80.26,130.77
+15,True,False,390.l.1031063.t.8,Ben,140.08,131.25,False,390.l.1031063.t.4,august,130.60,129.34
+16,True,False,390.l.1031063.t.8,Ben,133.5,128.44,False,390.l.1031063.t.7,Tony F,138.06,133.07
+1,False,False,390.l.1031063.t.4,august,163.82,126.46,False,390.l.1031063.t.11,nate,132.42,134.23
+2,False,False,390.l.1031063.t.4,august,140.76,136.17,False,390.l.1031063.t.7,Tony F,115.52,125.16
+3,False,False,390.l.1031063.t.4,august,167.94,142.71,False,390.l.1031063.t.12,Zach,134.12,133.42
+4,False,False,390.l.1031063.t.4,august,104.4,127.51,False,390.l.1031063.t.2,Andrew,91.40,110.30
+5,False,False,390.l.1031063.t.4,august,158.62,133.7,False,390.l.1031063.t.8,Ben,130.18,121.51
+6,False,False,390.l.1031063.t.4,august,132.66,126.29,False,390.l.1031063.t.9,Joe,143.90,124.84
+7,False,False,390.l.1031063.t.4,august,115.96,118.74,False,390.l.1031063.t.10,Steven,124.40,123.90
+8,False,False,390.l.1031063.t.4,august,131.96,131.04,False,390.l.1031063.t.3,Alex Zara,160.00,129.23
+9,False,False,390.l.1031063.t.4,august,124.3,122.74,False,390.l.1031063.t.1,WH,139.60,127.18
+10,False,False,390.l.1031063.t.4,august,101.02,111.08,False,390.l.1031063.t.5,Brian,118.52,132.58
+11,False,False,390.l.1031063.t.4,august,108.74,125.59,False,390.l.1031063.t.6,Jeff Big,70.62,117.21
+12,False,False,390.l.1031063.t.4,august,149.4,121.16,False,390.l.1031063.t.11,nate,120.34,112.24
+13,False,False,390.l.1031063.t.4,august,122.74,131.41,False,390.l.1031063.t.7,Tony F,129.58,130.86
+14,True,False,390.l.1031063.t.4,august,129.26,117.82,False,390.l.1031063.t.1,WH,127.92,131.70
+15,True,False,390.l.1031063.t.4,august,130.6,129.34,False,390.l.1031063.t.8,Ben,140.08,131.25
+16,True,False,390.l.1031063.t.4,august,120.12,128.54,False,390.l.1031063.t.12,Zach,77.06,104.46
+1,False,False,390.l.1031063.t.12,Zach,148.32,129.53,False,390.l.1031063.t.5,Brian,117.26,125.88
+2,False,False,390.l.1031063.t.12,Zach,160.32,135.18,False,390.l.1031063.t.6,Jeff Big,88.90,135.45
+3,False,False,390.l.1031063.t.12,Zach,134.12,133.42,False,390.l.1031063.t.4,august,167.94,142.71
+4,False,False,390.l.1031063.t.12,Zach,116.0,130.7,False,390.l.1031063.t.7,Tony F,126.40,126.35
+5,False,False,390.l.1031063.t.12,Zach,80.54,124.96,False,390.l.1031063.t.11,nate,152.14,134.63
+6,False,False,390.l.1031063.t.12,Zach,94.4,130.35,False,390.l.1031063.t.2,Andrew,93.42,116.17
+7,False,False,390.l.1031063.t.12,Zach,101.06,114.33,False,390.l.1031063.t.8,Ben,93.06,114.93
+8,False,False,390.l.1031063.t.12,Zach,75.4,121.35,False,390.l.1031063.t.9,Joe,125.58,124.55
+9,False,False,390.l.1031063.t.12,Zach,134.9,124.52,False,390.l.1031063.t.10,Steven,81.54,116.95
+10,False,False,390.l.1031063.t.12,Zach,132.68,120.34,False,390.l.1031063.t.3,Alex Zara,123.06,131.14
+11,False,False,390.l.1031063.t.12,Zach,111.26,123.34,False,390.l.1031063.t.1,WH,110.34,118.21
+12,False,False,390.l.1031063.t.12,Zach,125.14,126.97,False,390.l.1031063.t.5,Brian,118.16,123.35
+13,False,False,390.l.1031063.t.12,Zach,123.8,125.76,False,390.l.1031063.t.6,Jeff Big,92.92,126.74
+15,True,False,390.l.1031063.t.12,Zach,115.48,124.47,False,390.l.1031063.t.7,Tony F,134.26,139.67
+16,True,False,390.l.1031063.t.12,Zach,77.06,104.46,False,390.l.1031063.t.4,august,120.12,128.54
+1,False,False,390.l.1031063.t.5,Brian,117.26,125.88,False,390.l.1031063.t.12,Zach,148.32,129.53
+2,False,False,390.l.1031063.t.5,Brian,137.08,123.96,False,390.l.1031063.t.2,Andrew,119.42,124.82
+3,False,False,390.l.1031063.t.5,Brian,77.18,126.25,False,390.l.1031063.t.8,Ben,135.04,132.93
+4,False,False,390.l.1031063.t.5,Brian,127.08,118.75,False,390.l.1031063.t.9,Joe,117.30,123.98
+5,False,False,390.l.1031063.t.5,Brian,96.44,117.93,False,390.l.1031063.t.10,Steven,95.40,124.31
+6,False,False,390.l.1031063.t.5,Brian,143.74,108.75,False,390.l.1031063.t.3,Alex Zara,116.40,122.60
+7,False,False,390.l.1031063.t.5,Brian,81.52,98.81,False,390.l.1031063.t.1,WH,79.36,119.80
+8,False,False,390.l.1031063.t.5,Brian,140.9,113.65,False,390.l.1031063.t.11,nate,150.58,125.14
+9,False,False,390.l.1031063.t.5,Brian,120.52,130.07,False,390.l.1031063.t.6,Jeff Big,132.50,120.36
+10,False,False,390.l.1031063.t.5,Brian,118.52,132.58,False,390.l.1031063.t.4,august,101.02,111.08
+11,False,False,390.l.1031063.t.5,Brian,135.88,119.63,False,390.l.1031063.t.7,Tony F,133.34,130.90
+12,False,False,390.l.1031063.t.5,Brian,118.16,123.35,False,390.l.1031063.t.12,Zach,125.14,126.97
+13,False,False,390.l.1031063.t.5,Brian,147.6,133.55,False,390.l.1031063.t.2,Andrew,80.86,123.94
+14,True,False,390.l.1031063.t.5,Brian,116.4,129.71,False,390.l.1031063.t.7,Tony F,131.00,132.39
+15,True,False,390.l.1031063.t.5,Brian,173.78,120.92,False,390.l.1031063.t.1,WH,126.74,120.06
+1,False,False,390.l.1031063.t.1,WH,107.86,134.33,False,390.l.1031063.t.2,Andrew,110.34,132.02
+2,False,False,390.l.1031063.t.1,WH,93.6,129.64,False,390.l.1031063.t.8,Ben,92.04,131.08
+3,False,False,390.l.1031063.t.1,WH,171.16,136.53,False,390.l.1031063.t.9,Joe,146.94,117.74
+4,False,False,390.l.1031063.t.1,WH,129.78,131.75,False,390.l.1031063.t.10,Steven,97.88,118.85
+5,False,False,390.l.1031063.t.1,WH,159.9,127.89,False,390.l.1031063.t.3,Alex Zara,150.12,116.73
+6,False,False,390.l.1031063.t.1,WH,143.44,128.61,False,390.l.1031063.t.11,nate,116.92,138.61
+7,False,False,390.l.1031063.t.1,WH,79.36,119.8,False,390.l.1031063.t.5,Brian,81.52,98.81
+8,False,False,390.l.1031063.t.1,WH,198.98,111.63,False,390.l.1031063.t.6,Jeff Big,118.92,114.05
+9,False,False,390.l.1031063.t.1,WH,139.6,127.18,False,390.l.1031063.t.4,august,124.30,122.74
+10,False,False,390.l.1031063.t.1,WH,137.08,129.33,False,390.l.1031063.t.7,Tony F,142.44,122.66
+11,False,False,390.l.1031063.t.1,WH,110.34,118.21,False,390.l.1031063.t.12,Zach,111.26,123.34
+12,False,False,390.l.1031063.t.1,WH,79.14,130.04,False,390.l.1031063.t.2,Andrew,115.76,115.88
+13,False,False,390.l.1031063.t.1,WH,80.26,130.77,False,390.l.1031063.t.8,Ben,143.90,120.89
+14,True,False,390.l.1031063.t.1,WH,127.92,131.7,False,390.l.1031063.t.4,august,129.26,117.82
+15,True,False,390.l.1031063.t.1,WH,126.74,120.06,False,390.l.1031063.t.5,Brian,173.78,120.92
+1,False,False,390.l.1031063.t.6,Jeff Big,114.14,131.98,False,390.l.1031063.t.7,Tony F,117.76,136.64
+2,False,False,390.l.1031063.t.6,Jeff Big,88.9,135.45,False,390.l.1031063.t.12,Zach,160.32,135.18
+3,False,False,390.l.1031063.t.6,Jeff Big,120.08,137.7,False,390.l.1031063.t.2,Andrew,82.72,122.89
+4,False,False,390.l.1031063.t.6,Jeff Big,103.84,125.53,False,390.l.1031063.t.8,Ben,117.32,133.06
+5,False,False,390.l.1031063.t.6,Jeff Big,117.74,124.68,False,390.l.1031063.t.9,Joe,142.48,112.30
+6,False,False,390.l.1031063.t.6,Jeff Big,130.38,119.68,False,390.l.1031063.t.10,Steven,118.82,122.08
+7,False,False,390.l.1031063.t.6,Jeff Big,115.42,126.53,False,390.l.1031063.t.3,Alex Zara,87.06,124.57
+8,False,False,390.l.1031063.t.6,Jeff Big,118.92,114.05,False,390.l.1031063.t.1,WH,198.98,111.63
+9,False,False,390.l.1031063.t.6,Jeff Big,132.5,120.36,False,390.l.1031063.t.5,Brian,120.52,130.07
+10,False,False,390.l.1031063.t.6,Jeff Big,77.12,117.22,False,390.l.1031063.t.11,nate,133.58,122.98
+11,False,False,390.l.1031063.t.6,Jeff Big,70.62,117.21,False,390.l.1031063.t.4,august,108.74,125.59
+12,False,False,390.l.1031063.t.6,Jeff Big,110.32,117.74,False,390.l.1031063.t.7,Tony F,145.80,125.47
+13,False,False,390.l.1031063.t.6,Jeff Big,92.92,126.74,False,390.l.1031063.t.12,Zach,123.80,125.76
+14,True,True,390.l.1031063.t.6,Jeff Big,145.04,121.81,False,390.l.1031063.t.9,Joe,139.10,99.54
+15,True,True,390.l.1031063.t.6,Jeff Big,154.92,123.61,False,390.l.1031063.t.2,Andrew,121.20,132.62
+16,True,True,390.l.1031063.t.6,Jeff Big,141.3,124.41,False,390.l.1031063.t.10,Steven,85.24,118.23
+1,False,False,390.l.1031063.t.10,Steven,128.1,132.16,False,390.l.1031063.t.9,Joe,134.72,125.66
+2,False,False,390.l.1031063.t.10,Steven,92.5,130.18,False,390.l.1031063.t.11,nate,116.32,139.55
+3,False,False,390.l.1031063.t.10,Steven,121.9,128.87,False,390.l.1031063.t.3,Alex Zara,128.52,130.69
+4,False,False,390.l.1031063.t.10,Steven,97.88,118.85,False,390.l.1031063.t.1,WH,129.78,131.75
+5,False,False,390.l.1031063.t.10,Steven,95.4,124.31,False,390.l.1031063.t.5,Brian,96.44,117.93
+6,False,False,390.l.1031063.t.10,Steven,118.82,122.08,False,390.l.1031063.t.6,Jeff Big,130.38,119.68
+7,False,False,390.l.1031063.t.10,Steven,124.4,123.9,False,390.l.1031063.t.4,august,115.96,118.74
+8,False,False,390.l.1031063.t.10,Steven,147.4,124.15,False,390.l.1031063.t.7,Tony F,111.46,134.18
+9,False,False,390.l.1031063.t.10,Steven,81.54,116.95,False,390.l.1031063.t.12,Zach,134.90,124.52
+10,False,False,390.l.1031063.t.10,Steven,139.22,123.34,False,390.l.1031063.t.2,Andrew,121.82,115.13
+11,False,False,390.l.1031063.t.10,Steven,88.4,123.27,False,390.l.1031063.t.8,Ben,149.56,120.28
+12,False,False,390.l.1031063.t.10,Steven,131.98,103.76,False,390.l.1031063.t.9,Joe,101.10,113.70
+13,False,False,390.l.1031063.t.10,Steven,121.72,107.89,False,390.l.1031063.t.11,nate,112.80,131.16
+14,True,True,390.l.1031063.t.10,Steven,116.3,133.64,False,390.l.1031063.t.3,Alex Zara,96.14,104.31
+15,True,True,390.l.1031063.t.10,Steven,125.38,127.49,False,390.l.1031063.t.11,nate,112.80,113.25
+16,True,True,390.l.1031063.t.10,Steven,85.24,118.23,False,390.l.1031063.t.6,Jeff Big,141.30,124.41
+1,False,False,390.l.1031063.t.2,Andrew,110.34,132.02,False,390.l.1031063.t.1,WH,107.86,134.33
+2,False,False,390.l.1031063.t.2,Andrew,119.42,124.82,False,390.l.1031063.t.5,Brian,137.08,123.96
+3,False,False,390.l.1031063.t.2,Andrew,82.72,122.89,False,390.l.1031063.t.6,Jeff Big,120.08,137.70
+4,False,False,390.l.1031063.t.2,Andrew,91.4,110.3,False,390.l.1031063.t.4,august,104.40,127.51
+5,False,False,390.l.1031063.t.2,Andrew,132.44,113.72,False,390.l.1031063.t.7,Tony F,127.56,126.96
+6,False,False,390.l.1031063.t.2,Andrew,93.42,116.17,False,390.l.1031063.t.12,Zach,94.40,130.35
+7,False,False,390.l.1031063.t.2,Andrew,125.34,122.89,False,390.l.1031063.t.11,nate,118.24,131.12
+8,False,False,390.l.1031063.t.2,Andrew,125.78,123.8,False,390.l.1031063.t.8,Ben,95.04,100.06
+9,False,False,390.l.1031063.t.2,Andrew,122.86,102.82,False,390.l.1031063.t.9,Joe,104.74,122.46
+10,False,False,390.l.1031063.t.2,Andrew,121.82,115.13,False,390.l.1031063.t.10,Steven,139.22,123.34
+11,False,False,390.l.1031063.t.2,Andrew,129.34,128.59,False,390.l.1031063.t.3,Alex Zara,119.50,107.07
+12,False,False,390.l.1031063.t.2,Andrew,115.76,115.88,False,390.l.1031063.t.1,WH,79.14,130.04
+13,False,False,390.l.1031063.t.2,Andrew,80.86,123.94,False,390.l.1031063.t.5,Brian,147.60,133.55
+15,True,True,390.l.1031063.t.2,Andrew,121.2,132.62,False,390.l.1031063.t.6,Jeff Big,154.92,123.61
+16,True,True,390.l.1031063.t.2,Andrew,116.26,133.88,False,390.l.1031063.t.11,nate,115.14,121.67
+1,False,False,390.l.1031063.t.11,nate,132.42,134.23,False,390.l.1031063.t.4,august,163.82,126.46
+2,False,False,390.l.1031063.t.11,nate,116.32,139.55,False,390.l.1031063.t.10,Steven,92.50,130.18
+3,False,False,390.l.1031063.t.11,nate,144.76,142.95,False,390.l.1031063.t.7,Tony F,92.12,129.08
+4,False,False,390.l.1031063.t.11,nate,122.0,138.87,False,390.l.1031063.t.3,Alex Zara,129.64,118.88
+5,False,False,390.l.1031063.t.11,nate,152.14,134.63,False,390.l.1031063.t.12,Zach,80.54,124.96
+6,False,False,390.l.1031063.t.11,nate,116.92,138.61,False,390.l.1031063.t.1,WH,143.44,128.61
+7,False,False,390.l.1031063.t.11,nate,118.24,131.12,False,390.l.1031063.t.2,Andrew,125.34,122.89
+8,False,False,390.l.1031063.t.11,nate,150.58,125.14,False,390.l.1031063.t.5,Brian,140.90,113.65
+9,False,False,390.l.1031063.t.11,nate,98.64,128.32,False,390.l.1031063.t.8,Ben,136.48,114.43
+10,False,False,390.l.1031063.t.11,nate,133.58,122.98,False,390.l.1031063.t.6,Jeff Big,77.12,117.22
+11,False,False,390.l.1031063.t.11,nate,131.18,135.99,False,390.l.1031063.t.9,Joe,84.06,119.03
+12,False,False,390.l.1031063.t.11,nate,120.34,112.24,False,390.l.1031063.t.4,august,149.40,121.16
+13,False,False,390.l.1031063.t.11,nate,112.8,131.16,False,390.l.1031063.t.10,Steven,121.72,107.89
+15,True,True,390.l.1031063.t.11,nate,112.8,113.25,False,390.l.1031063.t.10,Steven,125.38,127.49
+16,True,True,390.l.1031063.t.11,nate,115.14,121.67,False,390.l.1031063.t.2,Andrew,116.26,133.88
+1,False,False,390.l.1031063.t.3,Alex Zara,90.76,131.62,False,390.l.1031063.t.8,Ben,173.32,133.29
+2,False,False,390.l.1031063.t.3,Alex Zara,105.32,135.65,False,390.l.1031063.t.9,Joe,97.66,126.42
+3,False,False,390.l.1031063.t.3,Alex Zara,128.52,130.69,False,390.l.1031063.t.10,Steven,121.90,128.87
+4,False,False,390.l.1031063.t.3,Alex Zara,129.64,118.88,False,390.l.1031063.t.11,nate,122.00,138.87
+5,False,False,390.l.1031063.t.3,Alex Zara,150.12,116.73,False,390.l.1031063.t.1,WH,159.90,127.89
+6,False,False,390.l.1031063.t.3,Alex Zara,116.4,122.6,False,390.l.1031063.t.5,Brian,143.74,108.75
+7,False,False,390.l.1031063.t.3,Alex Zara,87.06,124.57,False,390.l.1031063.t.6,Jeff Big,115.42,126.53
+8,False,False,390.l.1031063.t.3,Alex Zara,160.0,129.23,False,390.l.1031063.t.4,august,131.96,131.04
+9,False,False,390.l.1031063.t.3,Alex Zara,101.34,114.11,False,390.l.1031063.t.7,Tony F,133.90,132.49
+10,False,False,390.l.1031063.t.3,Alex Zara,123.06,131.14,False,390.l.1031063.t.12,Zach,132.68,120.34
+11,False,False,390.l.1031063.t.3,Alex Zara,119.5,107.07,False,390.l.1031063.t.2,Andrew,129.34,128.59
+12,False,False,390.l.1031063.t.3,Alex Zara,104.86,112.77,False,390.l.1031063.t.8,Ben,124.38,132.07
+13,False,False,390.l.1031063.t.3,Alex Zara,99.1,118.37,False,390.l.1031063.t.9,Joe,115.60,116.28
+14,True,True,390.l.1031063.t.3,Alex Zara,96.14,104.31,False,390.l.1031063.t.10,Steven,116.30,133.64
+15,True,True,390.l.1031063.t.3,Alex Zara,110.76,101.48,False,390.l.1031063.t.9,Joe,97.44,115.96
+1,False,False,390.l.1031063.t.9,Joe,134.72,125.66,False,390.l.1031063.t.10,Steven,128.10,132.16
+2,False,False,390.l.1031063.t.9,Joe,97.66,126.42,False,390.l.1031063.t.3,Alex Zara,105.32,135.65
+3,False,False,390.l.1031063.t.9,Joe,146.94,117.74,False,390.l.1031063.t.1,WH,171.16,136.53
+4,False,False,390.l.1031063.t.9,Joe,117.3,123.98,False,390.l.1031063.t.5,Brian,127.08,118.75
+5,False,False,390.l.1031063.t.9,Joe,142.48,112.3,False,390.l.1031063.t.6,Jeff Big,117.74,124.68
+6,False,False,390.l.1031063.t.9,Joe,143.9,124.84,False,390.l.1031063.t.4,august,132.66,126.29
+7,False,False,390.l.1031063.t.9,Joe,97.54,132.36,False,390.l.1031063.t.7,Tony F,107.28,121.13
+8,False,False,390.l.1031063.t.9,Joe,125.58,124.55,False,390.l.1031063.t.12,Zach,75.40,121.35
+9,False,False,390.l.1031063.t.9,Joe,104.74,122.46,False,390.l.1031063.t.2,Andrew,122.86,102.82
+10,False,False,390.l.1031063.t.9,Joe,134.58,108.16,False,390.l.1031063.t.8,Ben,109.28,115.10
+11,False,False,390.l.1031063.t.9,Joe,84.06,119.03,False,390.l.1031063.t.11,nate,131.18,135.99
+12,False,False,390.l.1031063.t.9,Joe,101.1,113.7,False,390.l.1031063.t.10,Steven,131.98,103.76
+13,False,False,390.l.1031063.t.9,Joe,115.6,116.28,False,390.l.1031063.t.3,Alex Zara,99.10,118.37
+14,True,True,390.l.1031063.t.9,Joe,139.1,99.54,False,390.l.1031063.t.6,Jeff Big,145.04,121.81
+15,True,True,390.l.1031063.t.9,Joe,97.44,115.96,False,390.l.1031063.t.3,Alex Zara,110.76,101.48
