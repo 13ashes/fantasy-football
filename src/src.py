@@ -7,8 +7,12 @@ from yahoo_utils import authenticate, get_league_settings, get_teams_data, get_p
     get_nickname, get_matchups
 from database_utils import read_sql, write_df_to_postgres
 import pprint
+import time
 
 pp = pprint.PrettyPrinter(indent=2)
+
+# Go to this website, login with Yahoo, and then copy the Access Token
+# https://lemon-dune-0cd4b231e.azurestaticapps.net/.
 
 
 # Main Function
@@ -51,6 +55,11 @@ def main():
         all_players_data.append(players_df)
         all_teams_data.append(team_data)
         all_matchups_data.append(matchups_df)
+
+        # Pause for 5 minutes (300 seconds) if not the last iteration
+        if index < len(leagues) - 1:
+            print(f"Processed league {index + 1}/{len(leagues)}. Waiting for 5 minutes before processing the next one.")
+            time.sleep(300)
 
     # Concatenate all DataFrames and write to PostgreSQL
     final_players_df = pd.concat(all_players_data, ignore_index=True)
