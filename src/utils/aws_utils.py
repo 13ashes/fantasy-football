@@ -1,6 +1,7 @@
 import boto3
 from botocore.exceptions import NoCredentialsError
-
+import pandas as pd
+from io import StringIO
 
 class AWSUtil:
 
@@ -50,6 +51,24 @@ class AWSUtil:
     def delete_from_s3(self, bucket_name, object_name):
         self.s3.delete_object(Bucket=bucket_name, Key=object_name)
         print(f"Deleted {object_name} from {bucket_name}.")
+
+    def get_unique_columns_from_s3_folder(self, bucket_name, folder_name):
+        objects = self.s3.list_objects(Bucket=bucket_name, Prefix=folder_name)
+        all_columns = set()  # Using a set to store unique columns
+
+        for obj in objects.get('Contents', []):
+            file_key = obj['Key']
+
+            # Get CSV content
+            csv_obj = self.s3.get_object(Bucket=bucket_name, Key=file_key)
+            body = csv_obj['Body']
+            csv_string = body.read().decode('utf-8')
+
+            # Convert CSV string to DataFrame and extract columns
+            df = pd.read_csv(StringIO(csv_string))
+            all_columns.update(df.columns)
+
+        return all_columns
 
 
 # Example usage

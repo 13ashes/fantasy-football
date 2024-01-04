@@ -1,13 +1,8 @@
-import requests
-import xmltodict
 import pandas as pd
-import json
-import ast
-from yahoo_utils import authenticate, get_league_settings, get_teams_data, get_player_data, get_player_stats_data, \
-    get_nickname, get_matchups
-from database_utils import read_sql, write_df_to_postgres
+from src.utils.yahoo_utils import authenticate, get_league_settings, get_teams_data, get_player_data, get_player_stats_data, \
+    get_matchups
+from src.utils.database_utils import read_sql, write_df_to_postgres
 import pprint
-import time
 
 pp = pprint.PrettyPrinter(indent=2)
 
