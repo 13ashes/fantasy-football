@@ -1,10 +1,10 @@
 -- CALL migrate_teams_data();
-CREATE OR REPLACE PROCEDURE migrate_teams_data()
+CREATE OR REPLACE PROCEDURE prod.sp_migrate_teams_data()
     LANGUAGE plpgsql
 AS
 $$
 BEGIN
-    INSERT INTO staging.teams(name,
+    INSERT INTO prod.dim_team(name,
                               team_key,
                               number_of_moves,
                               number_of_trades,
@@ -18,7 +18,8 @@ BEGIN
                               wins,
                               losses,
                               league_id,
-                              league_season)
+                              league_season,
+                              league_key)
     SELECT name,
            team_key,
            number_of_moves,
@@ -33,8 +34,9 @@ BEGIN
            wins,
            losses,
            league_id,
-           league_season
-    FROM loading.teams
+           league_season,
+           league_key
+    FROM staging.teams
     ON CONFLICT ON CONSTRAINT teams_natural_key
         DO UPDATE SET name              = EXCLUDED.name,
                       team_key          = EXCLUDED.team_key,
@@ -50,10 +52,11 @@ BEGIN
                       wins              = EXCLUDED.wins,
                       losses            = EXCLUDED.losses,
                       league_id         = EXCLUDED.league_id,
-                      league_season     = EXCLUDED.league_season;
+                      league_season     = EXCLUDED.league_season,
+                      league_key        = EXCLUDED.league_key;
 
-    -- Optional: You can add a DELETE or TRUNCATE statement here if you want to clear the `loading.matchups` table after migration
-    -- DELETE FROM loading.teams;
+    -- Optional: You can add a DELETE or TRUNCATE statement here if you want to clear the `staging.matchups` table after migration
+    -- DELETE FROM staging.teams;
 
 END;
 $$;

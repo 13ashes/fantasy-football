@@ -1,5 +1,5 @@
 -- Matchups Table
-CREATE TABLE loading.matchups
+CREATE TABLE staging.matchups
 (
     id                      SERIAL PRIMARY KEY,
     week                    INTEGER,
@@ -15,11 +15,12 @@ CREATE TABLE loading.matchups
     team_2_points           FLOAT,
     team_2_projected_points FLOAT,
     league_id               INTEGER,
-    league_season           INTEGER
+    league_season           INTEGER,
+    league_key              TEXT
 );
 
 -- Players Table
-CREATE TABLE loading.players
+CREATE TABLE staging.players
 (
     id                                   SERIAL PRIMARY KEY,
     player_key                           TEXT,
@@ -31,6 +32,7 @@ CREATE TABLE loading.players
     manager_name                         TEXT,
     league_id                            FLOAT,
     league_season                        INT,
+    league_key                           TEXT,
     points                               FLOAT,
     "Passing Yards"                      FLOAT,
     "Passing Touchdowns"                 FLOAT,
@@ -76,7 +78,7 @@ CREATE TABLE loading.players
 );
 
 -- Teams Table
-CREATE TABLE loading.teams
+CREATE TABLE staging.teams
 (
     id                SERIAL PRIMARY KEY,
     name              TEXT,
@@ -93,5 +95,6 @@ CREATE TABLE loading.teams
     wins              INTEGER,
     losses            INTEGER,
     league_id         INTEGER,
-    league_season     INTEGER
+    league_season     INTEGER,
+    league_key        TEXT
 );

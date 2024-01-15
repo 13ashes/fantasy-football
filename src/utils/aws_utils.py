@@ -2,6 +2,14 @@ import boto3
 from botocore.exceptions import NoCredentialsError
 import pandas as pd
 from io import StringIO
+from dotenv import load_dotenv
+import os
+
+# Load environment variables
+load_dotenv()
+
+bucket_name = os.getenv('BUCKET_NAME')
+
 
 class AWSUtil:
 
@@ -79,10 +87,10 @@ if __name__ == "__main__":
     print(aws.list_buckets())
 
     # Upload a file
-    aws.upload_to_s3('/Users/anthonyfancher/fantasy-football/src/test.csv', 'rhithm-insights', 'test.csv')
+    aws.upload_to_s3('/Users/anthonyfancher/fantasy-football/src/test.csv', bucket_name, 'test.csv')
 
     # Download a file
     # aws.download_from_s3('downloaded_file.csv', 'your_bucket_name', 'path_in_bucket.csv')
 
     # Delete a file
-    aws.delete_from_s3('rhithm-insights', 'test.csv')
+    aws.delete_from_s3(bucket_name, 'test.csv')

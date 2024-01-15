@@ -1,5 +1,5 @@
 import pandas as pd
-from utils.database_utils import read_sql
+from src.utils.database_utils import read_sql
 
 
 def get_playoff_start_week(league_id, league_season):

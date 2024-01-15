@@ -1,7 +1,7 @@
--- ALTER TABLE staging.matchups ADD COLUMN cumulative_points FLOAT;
--- ALTER TABLE staging.matchups ADD COLUMN cumulative_wins INT;
--- ALTER TABLE staging.matchups ADD COLUMN cumulative_losses INT;
--- ALTER TABLE staging.matchups ADD COLUMN rank INT;
+-- ALTER TABLE prod.matchups ADD COLUMN cumulative_points FLOAT;
+-- ALTER TABLE prod.matchups ADD COLUMN cumulative_wins INT;
+-- ALTER TABLE prod.matchups ADD COLUMN cumulative_losses INT;
+-- ALTER TABLE prod.matchups ADD COLUMN rank INT;
 
 CREATE OR REPLACE PROCEDURE sp_update_cumulative_points()
     LANGUAGE plpgsql

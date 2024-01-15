@@ -1,11 +1,11 @@
 -- CALL move_data_from_loading_to_staging();
-CREATE OR REPLACE PROCEDURE move_data_from_loading_to_staging()
+CREATE OR REPLACE PROCEDURE prod.sp_migrate_players_data()
     LANGUAGE plpgsql
 AS
 $$
 BEGIN
-    -- Insert data from loading.players to staging.players
-    INSERT INTO staging.players (player_key,
+    -- Insert data from staging.players to prod.players
+    INSERT INTO prod.fct_players (player_key,
                                  name,
                                  position,
                                  week,
@@ -105,7 +105,7 @@ BEGIN
            CAST("Field Goals Made" AS INTEGER),
            CAST("Field Goals Total Yards" AS INTEGER),
            CAST("Field Goals Missed" AS INTEGER)
-    FROM loading.players
+    FROM staging.players
     ON CONFLICT ON CONSTRAINT players_natural_key -- Ensure uniqueness on the natural key
         DO UPDATE SET name                               = EXCLUDED.name,
                       position                           = EXCLUDED.position,
@@ -153,8 +153,8 @@ BEGIN
                       field_goals_total_yards            = EXCLUDED.field_goals_total_yards,
                       field_goals_missed                 = EXCLUDED.field_goals_missed;
 
-    -- Optional: You can add a DELETE or TRUNCATE statement here if you want to clear the `loading.matchups` table after migration
-    -- DELETE FROM loading.players;
+    -- Optional: You can add a DELETE or TRUNCATE statement here if you want to clear the `staging.matchups` table after migration
+    -- DELETE FROM staging.players;
 
 END;
 $$;

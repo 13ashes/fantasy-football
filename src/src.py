@@ -1,25 +1,39 @@
 import pandas as pd
-from src.utils.yahoo_utils import authenticate, get_league_settings, get_teams_data, get_player_data, get_player_stats_data, \
-    get_matchups
-from src.utils.database_utils import read_sql, write_df_to_postgres
+from utils.yahoo_utils import authenticate, get_league_settings, get_teams_data, get_player_data, \
+    get_player_stats_data, get_matchups
+from utils.database_utils import read_sql
 import pprint
+from utils.aws_utils import AWSUtil  # Import the AWS utility class
+import os
+from dotenv import load_dotenv
 
 pp = pprint.PrettyPrinter(indent=2)
+
+# Load environment variables
+load_dotenv()
+
+bucket_name = os.getenv('BUCKET_NAME')
+
+
+# Go to this website, login with Yahoo, and then copy the Access Token
+# https://lemon-dune-0cd4b231e.azurestaticapps.net/.
 
 
 def main(league_index):
     headers = authenticate()
 
     # Define view
-    view = 'public.vw_leagues'
+    view = 'prod.vw_leagues'
     print(f'Processing {view}')
 
     # Fetch user data from Postgres
     query = f"""
-    SELECT league_key, 
+    SELECT ROW_NUMBER() OVER (ORDER BY league_key) AS row_number,
+           league_key,
            league_name, 
            season,
            league_id FROM {view}
+           where league_id = 4
     """
     leagues = read_sql(query)
 
@@ -41,10 +55,17 @@ def main(league_index):
                           right_on=['player_key', 'week', 'name'])
     matchups_df = get_matchups(headers, team_data, league_id, league_season)
 
-    # Write DataFrames to PostgreSQL
-    write_df_to_postgres(players_df, 'fct_players', 'loading')
-    write_df_to_postgres(team_data, 'fct_teams', 'loading')
-    write_df_to_postgres(matchups_df, 'fct_matchups', 'loading')
+    # Write DataFrames to S3 as CSV
+    aws = AWSUtil()  # Initialize the AWS utility
+
+    # players_df.to_csv('players_temp.csv', index=False)
+    aws.upload_to_s3('players_temp.csv', bucket_name, f'players/fct_players_{league_key}.csv')
+
+    team_data.to_csv('teams_temp.csv', index=False)
+    aws.upload_to_s3('teams_temp.csv', bucket_name, f'teams/fct_teams_{league_key}.csv')
+
+    matchups_df.to_csv('matchups_temp.csv', index=False)
+    aws.upload_to_s3('matchups_temp.csv', bucket_name, f'matchups/fct_matchups_{league_key}.csv')
 
     print(f"Processed league {league_index}/{len(leagues)}.")
 

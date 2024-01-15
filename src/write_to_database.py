@@ -3,8 +3,13 @@ from src.utils.database_utils import write_df_to_postgres
 from src.utils.aws_utils import AWSUtil
 from io import StringIO
 import pprint
+import os
+from dotenv import load_dotenv
 
 pp = pprint.PrettyPrinter(indent=2)
+
+# Load environment variables
+load_dotenv()
 
 
 def load_csv_from_s3_to_db(bucket_name, s3_object_path):
@@ -29,9 +34,9 @@ def load_csv_from_s3_to_db(bucket_name, s3_object_path):
 
 def main():
     # Configuration
-    bucket_name = 'rhithm-insights'
-    categories = ['matchups']
-    league_keys = ['123456']  # Replace with your league keys
+    bucket_name = os.getenv('BUCKET_NAME')
+    categories = ['matchups', 'teams']
+    league_keys = ['153.l.709122', '175.l.696127']
 
     # Loop through each category and then through each league key for that category
     for category in categories:
@@ -44,11 +49,11 @@ def main():
             # Get data from S3
             df = load_csv_from_s3_to_db(bucket_name, s3_path)
 
-            # Write to Postgres in the 'loading' schema
-            write_df_to_postgres(df, table_name=category, schema_name='loading')
+            # Write to Postgres in the 'staging' schema
+            write_df_to_postgres(df, table_name=category, schema_name='staging')
 
             print(
-                f"Loaded {category} data for league key {league_key} from {s3_path} to loading.{category} in Postgres.")
+                f"Loaded {category} data for league key {league_key} from {s3_path} to staging.{category} in Postgres.")
 
 
 if __name__ == "__main__":
