@@ -130,5 +130,5 @@ dmypy.json
 
 emeric
 resources
-sql/dev
+sql_scripts/dev
 src/dev
