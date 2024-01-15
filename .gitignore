@@ -132,3 +132,5 @@ emeric
 resources
 sql_scripts/dev
 src/dev
+
+sql_scripts/general/insert_records.sql
