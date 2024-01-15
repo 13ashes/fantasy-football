@@ -128,6 +128,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Data folders
-raw-data
-merged-data
+emeric
+resources
+sql/dev
