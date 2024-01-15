@@ -19,6 +19,29 @@ CREATE TABLE staging.matchups
     league_key              TEXT
 );
 
+-- Teams Table
+CREATE TABLE staging.teams
+(
+    id                SERIAL PRIMARY KEY,
+    name              TEXT,
+    team_key          TEXT,
+    number_of_moves   INTEGER,
+    number_of_trades  INTEGER,
+    clinched_playoffs BOOLEAN,
+    manager_name      TEXT,
+    division_id       INTEGER,
+    draft_grade       TEXT,
+    rank              INTEGER,
+    points_for        FLOAT,
+    points_against    FLOAT,
+    wins              INTEGER,
+    losses            INTEGER,
+    league_id         INTEGER,
+    league_season     INTEGER,
+    league_key        TEXT
+);
+
+
 -- Players Table
 CREATE TABLE staging.players
 (
@@ -75,26 +98,4 @@ CREATE TABLE staging.players
     "Field Goals Made"                   FLOAT,
     "Field Goals Total Yards"            FLOAT,
     "Field Goals Missed"                 FLOAT
-);
-
--- Teams Table
-CREATE TABLE staging.teams
-(
-    id                SERIAL PRIMARY KEY,
-    name              TEXT,
-    team_key          TEXT,
-    number_of_moves   INTEGER,
-    number_of_trades  INTEGER,
-    clinched_playoffs BOOLEAN,
-    manager_name      TEXT,
-    division_id       INTEGER,
-    draft_grade       TEXT,
-    rank              INTEGER,
-    points_for        FLOAT,
-    points_against    FLOAT,
-    wins              INTEGER,
-    losses            INTEGER,
-    league_id         INTEGER,
-    league_season     INTEGER,
-    league_key        TEXT
 );
