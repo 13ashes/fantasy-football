@@ -31,6 +31,7 @@ pip install -r requirements.txt
 Explore the visualizations of the league's history through the Tableau workbook.
 
 [Tableau Visualization for Fantasy Football Project](https://public.tableau.com/views/FANTASYRECORDBOOK/RECORDBOOK?:language=en-US&:display_count=n&:origin=viz_share_link)
+
 [Tableau Workbook PDF](RECORD%20BOOK.pdf)
 
 ## Contributing
